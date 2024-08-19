@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AnyMarket</title>
+<link rel="icon" href="img/icon.ico" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2 class="logo"></h2>
+    <div class="pesquisa-container">
+      <input type="text" id="numeroPedido" placeholder="Digite o número do pedido" onkeydown="if(event.keyCode==13) pesquisaPedido()">
+      <button onclick="pesquisaPedido()">Pesquisar</button>
+    </div>
+    <div id="retorno"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
